@@ -1,0 +1,46 @@
+export const words = [
+    // Cortas
+    "SOL", "MAR", "LUZ", "RED", "BUG", "API", "SQL", "GIT", "CPU", "TEC", "FPS", "GAS", "WEB", "APP", "URL", "DOM", "CLI", "RAM", "ROM", "IDE",
+    "PAN", "SAL", "PEZ", "TAL", "FIN", "MAL", "BIEN", "CASA", "ROJO", "AZUL", "VERDE", "GATO", "PERRO", "LOCO", "SUMA", "RESTA", "ARMA", "NAVE",
+
+    // Medianas
+    "JUEGO", "RAPIDO", "LETRA", "TECLA", "NIVEL", "PUNTO", "FUEGO", "ARCADE", "BOTON", "RATON", "CODE", "LOOP", "CLOUD", "ARRAY", "LOGIC", "REPO", "DEBUG",
+    "PANTALLA", "VENTANA", "SERVER", "CLIENT", "ROUTER", "SCRIPT", "FRONT", "BACK", "NODE", "VUE", "REACT", "ANGULAR", "HTML", "CSS", "DATOS", "REDES",
+    "PIXEL", "SONIDO", "MUSICA", "RITMO", "TIEMPO", "MUNDO", "VIDAS", "JEFE", "OLEADA", "RETO", "EXITO", "PODER", "SALTO", "FUERZA", "ENERGIA",
+    "SISTEMA", "MODULO", "OBJETO", "CLASE", "METODO", "BUCLE", "INTERFAZ", "CAMBIO", "ESTADO", "EVENTO", "RENDER", "VECTOR", "MATRIZ", "INDICE",
+
+    // Largas
+    "TECLADO", "MECANICA", "VELOCIDAD", "PRECISION", "PUNTUACION", "BINARY", "DATABASE", "TERMINAL", "NETWORK", "SOFTWARE", "HARDWARE",
+    "FUNCION", "VARIABLE", "CONDICION", "RENDIMIENTO", "OPTIMIZACION", "COMPILADOR", "MULTIPLICAR", "DESTREZA", "HABILIDAD", "CAMPEON",
+    "VICTORIA", "DERROTA", "ESTRATEGIA", "EVOLUCION", "JAVASCRIPT", "FRAMEWORK", "COMPONENTE", "AUTENTICACION", "BASEDEDATOS"
+];
+
+const bossWords = [
+    "PARANGARICUTIRIMICUARO",
+    "ELECTROENCEFALOGRAFISTA",
+    "ESTERNOCLEIDOMASTOIDEO",
+    "OTORRINOLARINGOLOGO",
+    "INCOMPRENSIBILIDAD",
+    "DESPROPORCIONADAMENTE",
+    "INTERNACIONALIZACION",
+    "CONSTITUCIONALIDAD",
+    "SOBREALIMENTACION",
+    "PROGRAMACION",
+    "DESARROLLADOR",
+    "ARQUITECTURA",
+    "ALGORITMO",
+    "ESTRUCTURA",
+    "MECANOGRAFIA",
+    "ELECTRONICA",
+    "SUPABASE",
+    "JAVASCRIPT",
+    "FRAMEWORK"
+];
+
+export function getRandomWord() {
+    return words[Math.floor(Math.random() * words.length)];
+}
+
+export function getBossWord() {
+    return bossWords[Math.floor(Math.random() * bossWords.length)];
+}

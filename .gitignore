@@ -1,0 +1,24 @@
+#Dependencias node
+node_modules/
+
+#Build de Vite
+frontend/dist/
+
+#Empaquetado de Electron
+release/
+dist/
+
+#Entornos virtuales de python
+backend/ .venv/
+.venv/
+__pycache__/
+*.pyc 
+
+#variables de entorno
+.env
+backend/.env
+
+
+#editores
+.vscode/
+.idea/
